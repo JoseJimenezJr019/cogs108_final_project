@@ -1,0 +1,15 @@
+field,description,possible_values
+incident_num,Unique Incident Identifier,
+date_time,Date / Time in 24 Hour Format,
+day,Day of the week,"(1 = Sunday, 2 = Monday ...)"
+address_number_primary,"Street Number of Incident, Abstracted to block level",
+address_dir_primary,Direction of street in address,ex: 123 W El Cajon Bl
+address_road_primary,Name of Street,
+address_sfx_primary,Street Type,"ST, Av, etc"
+address_pd_intersecting,"If intersecting street available, direction of that street",
+address_road_intersecting,"If intersecting street available, street name ",
+address_sfx_intersecting,"If intersecting street available, street type",
+call_type,Type of call,http://seshat.datasd.org/pd/pd_cfs_calltypes_datasd.csv
+disposition,Classification,http://seshat.datasd.org/pd/pd_dispo_codes_datasd.csv
+beat,San Diego PD Beat,http://seshat.datasd.org/pd/pd_beat_neighborhoods_datasd.csv
+priority,Priority assigned by dispatcher,http://seshat.datasd.org/pd/pd_cfs_priority_defs_datasd.pdf

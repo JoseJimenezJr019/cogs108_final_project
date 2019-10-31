@@ -1,0 +1,7 @@
+field,field_type,description,possible_values
+stop_id,int64,unique identifer for stop,
+pid,int64,unique identifer for person on a stop,
+resultkey,int64,outcome(s) of stop (code),see result attribute for descriptions of codes
+result,str,outcome(s) of stop (description),https://oag.ca.gov/sites/all/files/agweb/pdfs/ripa/stop-data-reg-final-text-110717.pdf?
+code,float64,"specific violation if stop outcome is warning, citation or custodial arrest (code)",see resultText attribute for descriptions of codes
+resulttext,str,"specific violation if stop outcome is warning, citation or custodial arrest (description)",

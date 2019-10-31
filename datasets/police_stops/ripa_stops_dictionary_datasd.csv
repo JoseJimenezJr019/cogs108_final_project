@@ -1,0 +1,30 @@
+field,field_type,description,possible_values
+stop_id,int64,unique identifer for stop,
+ori,str,agency originating identifier,CA0371100 is the SDPD ORI
+agency,str,agency,SD
+exp_years,int64,officer years of experience in law enforcement,
+stopdate,datetime64[ns],date  stop occurred,
+stoptime,str,time stop began,
+stopduration,int64,duration of time for stop in minutes,
+stop_in_response_to_cfs,int64,was the stop made in response to a call for service?,"0 = No, 1 = Yes"
+officer_assignment_key,int64,type of officer assignment at time of stop (code),see assignment attribute for descriptions of codes
+assignment,str,type of officer assignment at time of stop (description),https://oag.ca.gov/sites/all/files/agweb/pdfs/ripa/stop-data-reg-final-text-110717.pdf?
+intersection,str,location of stop - intersecting street name,
+block,float64,location of stop - hundred block,
+land_mark,str,location of stop - landmark,
+street,str,location of stop - street name,
+highway_exit,str,location of stop - highway exit,
+isschool,int64,did stop occur at a school?,"0 = No, 1 = Yes"
+school_name,str,name of school where stop occurred,
+cityname,str,name of city where stop occurred,
+beat,int64,location of stop - SDPD beat,http://seshat.datasd.org/pd/pd_beat_neighborhoods_datasd.csv
+beat_name,str,location of stop - SDPD beat/neighborhood name,
+pid,int64,unique identifer for person on a stop,
+isstudent,int64,was person stopped a student?,"0 = No, 1 = Yes"
+perceived_limited_english,int64,officer's perception that the person stopped has limited or no fluency in English,"0 = No, 1 = Yes"
+perceived_age,int64,officer's perception of the approximate age of the person stopped,
+perceived_gender,str,officer's perception of the gender of the person stopped (description),https://oag.ca.gov/sites/all/files/agweb/pdfs/ripa/stop-data-reg-final-text-110717.pdf?
+gender_nonconforming,int64,officer's perception of whether the person stopped is gender nonconforming,"0 = No, 1 = Yes"
+gend,int64,officer's perception of the gender of the person stopped (code),see perceivedGender attribute for descriptions related to codes
+gend_nc,float64,officer's perception of whether the person stopped is gender nonconforming,"No data = No, 5 = Yes"
+perceived_lgbt,str,"officer's perception of whether the person stopped is lesbian, gay, bisexual or transgender","Yes, No"
