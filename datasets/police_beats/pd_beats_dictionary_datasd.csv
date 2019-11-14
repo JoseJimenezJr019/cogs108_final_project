@@ -1,6 +1,3 @@
-field,field_type,description,possible_values
-objectid,Integar,Unique identifier,
-beat,Integar,"Beat number. Beats roll up into Service Areas, which roll up into Divisions.",
-div,Integar,Division number. Divisions are divided into Service Areas.,
-serv,Integar,Service Area number. Service Areas are divided into beats.,
-name,String,Beat name,
+version https://git-lfs.github.com/spec/v1
+oid sha256:27bf761b218a542b1d0917b22738389f75cd3cd24715f7cfa6eeb1c3f322ee14
+size 348
