@@ -1,12 +1,15 @@
 import googlemaps
-from _datetime import datetime
-import geopy
-from geopy.geocoders import Nominatim
+import json
+import pandas as pd
 
-geolocator = Nominatim(user_agent='cogs_108_final_project')
+key = 'AIzaSyCTVn4TU6dUwegavg0UQRL_BAoi4Hqhp88'
+gmaps = googlemaps.Client(key=key)
 
-location = geolocator.geocode("4122 Via Candidiz")
+geocode_result = gmaps.geocode('81732 Lido Ave, Indio, CA')
 
-print(location.address)
+geo_json = geocode_result.json()
+print(geocode_result)
 
-print(location.longitude, location.latitude)
+google_df = pd.DataFrame(geocode_result)
+
+print(google_df['geometry'])
