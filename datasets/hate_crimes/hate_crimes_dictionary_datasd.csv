@@ -1,22 +1,8 @@
-﻿Field,Description,Values
-case_number,Unique Case Identifier. A case involving multiple victims will have a row per victim. ,
-date,Incident date,
-year,Incident year,
-month,Incident month,
-time,Incident time,
-date_time,Incident date and time,
-crime_code,Violation Section,
-crime,Description of Crime Code,
-beat,San Diego PD Beat,http://seshat.datasd.org/pd/pd_beat_neighborhoods_datasd.csv
-command,San Diego PD Command,
-weapon,Type of Weapon Used in Crime,"Rock, spray paint, hands, etc."
-motivation,Bias Motivation for Hate Crime,"Race, religion, sexual orientation, gender, etc."
-number_of_suspects,Number of Suspects Involved in Crime,
-suspect,Indicator if Suspect is Known to Victim,Known or unknown
-victim_count,Number of Victims Involved in Crime,0 - None of the victims were individuals. Check the victim_other category for an organization type.
-victim_other,Description of Organization Type (if Victim is not an Individual),"Church, School, etc."
-injury,Victim Level of Treatment,"None, No Treat., Treated"
-suspect_race_n,"Race of Suspect(s). For incidents involving multiple known suspects, each suspect's race is in a separate column appended with incrementing numbers. The sex of the same suspect is in a column with the same appended number.","A = Asian, B = Black, H = Hispanic, W = White, O = Other, Unk = Unknown"
-suspect_sex_n,"Sex of Suspect(s). For incidents involving multiple known suspects, each suspect's sex is in a separate column appended with incrementing numbers. The race of the same suspect is in a column with the same appended number.","M = Male, F = Female, Unk = Unknown"
-victim_race_n,"Race of Victim. For incidents involving multiple victims, each victim's race is in a separate column appended with an incrementing number. The sex of the same victim is in a column with the same appended number.","A = Asian, B = Black, H = Hispanic, W = White, O = Other, Unk = Unknown"
-victim_sex_n,"Sex of Victim. For incidents involving multiple victims, each victim's sex is in a separate column appended with an incrementing number. The race of the same victim is in a column with the same appended number.","M = Male, F = Female, Unk = Unknown"
+version https://git-lfs.github.com/spec/v1
+<<<<<<< HEAD
+oid sha256:38e0dd1877355f2b9a5a6ee2273556835a39b001cb7afb428062593f7308942f
+size 2171
+=======
+oid sha256:24f611ec30dde7f02c7e739f8aea06513a9d97c460312274f8ca6afc35880629
+size 2192
+>>>>>>> 04ae9ef72845dde5c98412bcff7bba9294eb134b
